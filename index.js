@@ -14,6 +14,7 @@ async function main() {
 
     let shape;
     
+    // instantiate new obj depending on choice of shape
     if (shapeDescription.logoShape[0] == 'circle') {
       shape = new Circle(shapeDescription.logoBgColor);
     } else if (shapeDescription.logoShape[0] == 'square') {

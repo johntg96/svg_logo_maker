@@ -20,7 +20,7 @@ async function main() {
     } else if (shapeDescription.logoShape[0] == 'square') {
       shape = new Square(shapeDescription.logoBgColor);
     } else if (shapeDescription.logoShape[0] == 'triangle') {
-      shape = new Square(shapeDescription.logoBgColor);
+      shape = new Triangle(shapeDescription.logoBgColor);
     } else {
       outputCyanText('\nInvalid shape selection!\n');
     }

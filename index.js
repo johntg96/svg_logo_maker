@@ -14,14 +14,14 @@ async function main() {
 
     let shape;
     
-    if (shapeDescription.logoShape == 'circle') {
+    if (shapeDescription.logoShape[0] == 'circle') {
       shape = new Circle(shapeDescription.logoBgColor);
-    } else if (shapeDescription == 'square') {
+    } else if (shapeDescription.logoShape[0] == 'square') {
       shape = new Square(shapeDescription.logoBgColor);
-    } else if (shapeDescription == 'triangle') {
+    } else if (shapeDescription.logoShape[0] == 'triangle') {
       shape = new Square(shapeDescription.logoBgColor);
     } else {
-      console.log('error went wrong, invalid shape selection');
+      outputCyanText('\nInvalid shape selection!\n');
     }
 
     console.log(shape);

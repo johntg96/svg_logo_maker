@@ -18,7 +18,6 @@ node index.js
 
 ## Tests
 ```
-npm i -D jest
 npm run test
 ```
 

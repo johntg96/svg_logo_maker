@@ -3,7 +3,8 @@
 
 
 ## Description
-Create an SVG (.svg) logo using user input choices.
+Create an SVG (.svg) logo using user input choices,
+video walkthrough [here](https://drive.google.com/file/d/1zDvL36Fd6hggQ61xKewNhFd92gKvBamt/view).
 
 ## Installation
 ```

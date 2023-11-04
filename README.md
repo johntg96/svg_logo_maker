@@ -23,6 +23,6 @@ npm run test
 
 ## Questions
 Contact me:
-johntg96
-splendidonkey@gmail.com
+[johntg96 | GitHub](https://github.com/johntg96)  
+[johntg96@protonmail.com](mailto:johntg96@protonmail.com.com)  
 
